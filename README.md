@@ -100,7 +100,7 @@ PAYPAL_SANDBOX_API_SECRET=YourSecret
 
   # login to admin dashboard
    Url :http://127.0.0.1:8000/login
-   Email :   admin@gmail.com
+   Email :   admin@admin.com
    Password : admin
 
 
