@@ -39,7 +39,7 @@ html {
 }
 /*  end change */
 section {
-    padding: 2rem 9%;
+    padding: 7rem 2%;
 }
 
 .dishes,
@@ -185,13 +185,13 @@ header .icons #menu-bars {
     text-align: center;
     color: var(--green2);
     font-size: 2rem;
-    padding-top: 1rem;
+    padding-top: 5rem;
 }
 .heading {
     text-align: center;
     color: var(--primaryyColor);
     font-size: 3rem;
-    padding-bottom: 2rem;
+    padding-bottom: 5rem;
     text-transform: uppercase;
 }
 .dishes .box-container {
@@ -274,7 +274,8 @@ header .icons #menu-bars {
     flex: 1 1 45rem;
 }
 .about .row .image img {
-    width: 100%;
+    width: 95%;
+    height: 400px;
 }
 .about .row .content {
     flex: 1 1 45rem;
@@ -287,7 +288,7 @@ header .icons #menu-bars {
 .about .row .content p {
     color: var(--light-color);
     font-size: 1.5rem;
-    padding: 5rem 0;
+    padding: 1rem 0;
     line-height: 2;
 }
 .about .row .content .icons-container {

@@ -56,7 +56,7 @@
                 <div class="col-md-6">
                     <div class="myRightCtn">
                         <div class="box">
-                            <img src="{{asset('images/backgrounds/loginpackgrnn.jpg')}}" class="login-background" alt="Login-background">
+                            <img src="{{asset('images/backgrounds/login5.jpg')}}" class="login-background" alt="Login-background" >
                         </div>
                     </div>
                 </div>

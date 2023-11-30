@@ -28,15 +28,14 @@
     {{-- navbar --}}
     <header>
 
-       <a href="/" class="logo"><i class="fas fa-utensils"></i>RESTOTAMRI</a>
+       <a href="/" class="logo"><i class="fas fa-utensils"></i>Yummy</a>
 
         <nav class="navbar">
-            <a href="/" class="active">home</a>
-            <a href="/#dishes" >dishes</a>
-            <a href="/#about" >about</a>
-            <a href="/#menu">menu</a>
-            <a href="/#review" >reviews</a>
-            <a href="/#review2">Add review</a>
+            <a href="/" class="active">Trang chủ</a>
+            <a href="/#dishes" >Món ăn</a>
+            <a href="/#about" >Giới thiệu</a>
+            <a href="/#menu">Thực đơn</a>
+            <a href="/#review" >Đánh Giá</a>
         </nav>
           @if (Auth()->guard()->check())
           {{-- Dakchi li4aytl3 ila kan user mconnecte --}}
@@ -81,38 +80,36 @@
      <section class="footer">
          <div class="box-container">
              <div class="box">
-                 <h3>locations</h3>
-                 <a href="#">Agadir</a>
-                 <a href="#">Casablanca</a>
-                 <a href="#">Marakesh</a>
-                 <a href="#">Madrid Spain</a>
-                 <a href="#">Doha Qatar</a>
+                 <h3>Địa điểm</h3>
+                 <a href="#">Đà Nẵng</a>
+                 <a href="#">Hà Nội</a>
+                 <a href="#">Hồ Chí Minh</a>
+                 <a href="#">Huế</a>
+                
              </div>
             <div class="box">
-                <h3>quick links</h3>
-                <a href="/#home">home</a>
-                <a href="/#dishes">dishes</a>
-                <a href="/#about">about</a>
-                <a href="/#menu">menu</a>
-                <a href="/#review">review</a>
-                <a href="/#review2">Add review</a>
+                <h3>Truy cập nhanh</h3>
+                <a href="/#home">Trang Chủ</a>
+                <a href="/#dishes">Món Ăn</a>
+                <a href="/#about">Giới Thiệu</a>
+                <a href="/#menu">Thực đơn</a>
+                <a href="/#review">Đánh giá</a>
             </div>
             <div class="box">
-                <h3>contact info</h3>
-                <a href="#">+212-643488319</a>
-                <a href="#">+212-643488319</a>
-                <a href="#">abderrahmane.amerhhi@gmail.com</a>
-                <a href="#">tamri2002@gmail.com</a>
-                <a href="#">tamri agadir 37782</a>
+                <h3>Liên hệ</h3>
+                <a href="#">+843122004</a>
+                <a href="#">+845411226</a>
+                <a href="#">yummyrestaurant@gmail.com</a>
+                <a href="#">klinhtruong04@gmail.com</a>
             </div>
             <div class="box">
-                <h3>follow us</h3>
+                <h3>Hãy theo dõi chúng tôi</h3>
                 <a href="https://web.facebook.com/profile.php?id=100004412416678">facebook</a>
                 <a href="https://www.instagram.com/abderrahmane_amerrhi/">instagram</a>
                 <a href="https://www.linkedin.com/in/abderrahmane-amerrhi-807b40201/">linkedin</a>
             </div>
          </div>
-         <div class="credit">copyright <i class="fa-solid fa-copyright"></i> 2022 by <span>ABDERRAHMANE AMERRHI</span></div>
+         <div class="credit">copyright <i class="fa-solid fa-copyright"></i> 2023 by <span>Yummy Restaurant</span></div>
      </section>
 
      <!-- foter section end -->

@@ -10,41 +10,37 @@
                <div class="swiper-wrapper wrapper">
                    <div class="swiper-slide slide">
                        <div class="content">
-                           <span>our royalty dishes</span>
-                           <h3>Couscous</h3>
-                           <p>The varied Moroccan traditional food that we offer many of this dish, such as couscous with meat or chicken and various vegetables, as well as couscous with fish.</p>
+                           <span>Món Ăn Của Chúng Tôi</span>
+                           <h3>Cơm Tấm</h3>
+                           <p>Cơm tấm, món ăn gần gũi với người Việt, với hương vị đa dạng từ cơm nếp, thịt heo, trứng và nước mắm. Mỗi đĩa cơm tấm không chỉ là bữa ăn, mà còn là tinh hoa của hương vị và tình thân.</p>
                            <a href="#" class="btn">order now</a>
                        </div>
                        <div class="image">
-                           <img src="{{asset('images/backgrounds/CouscoBack.png')}}" alt="">
+                           <img src="{{asset('images/backgrounds/comtam.png')}}" alt="" style="width: 500px;">
                        </div>
                    </div>
 
                    <div class="swiper-slide slide">
                         <div class="content">
-                            <span>our royalty dishes</span>
-                            <h3>Bastilla</h3>
-                            <p>Bastila is one of the most traditional Moroccan dishes that are prepared in most Moroccan proportions and we offer you this unique dish in a variety of different forms.</p>
+                            <span>Món Ăn Của Chúng Tôi</span>
+                            <h3>Phở</h3>
+                            <p>Phở, hương thơm của hành, gừng và hạt tiêu, hòa quyện với gân bò mềm mại và sợi phở mềm tan. Một nét văn hóa ẩm thực Việt, đậm chất gia đình và kỷ niệm, mỗi tô phở là một chuyến hành trình đầy cảm xúc qua hương vị.</p>
                             <a href="#" class="btn">order now</a>
                         </div>
                         <div class="image">
-                            <img src="{{asset('images/backgrounds/bstillabacknew.png')}}" alt="">
+                            <img src="{{asset('images/backgrounds/pho.jpg')}}" alt="" style="width: 500px;">
                         </div>
                     </div>
 
                     <div class="swiper-slide slide">
                         <div class="content">
-                            <span>our royalty dishes</span>
-                            <h3>Fish</h3>
-                            <p>We offer the most delicious various marine dishes such as tagine with fish,
-                                 a traditional Moroccan dish, fried fish such as sardines and seafood,
-                                  which are served in various forms,
-                                   and the unique Spanish paella dish, We also offer the most delicious grilled fish
-                                 .</p>
+                            <span>Món Ăn Của Chúng Tôi</span>
+                            <h3>Bánh Xèo</h3>
+                            <p>Bánh xèo - vị giòn của vỏ bánh, hòa quyện với nhân thơm của tôm, thịt, và rau sống. Món ẩm thực đậm đà miền Nam, khiến hương vị lan tỏa từ gia đình đến bàn ăn. Mỗi lần nếm, là chuyến phiêu lưu qua vị ngọt, mặn, cay của miền quê Việt.</p>
                             <a href="#" class="btn">order now</a>
                         </div>
                         <div class="image">
-                            <img src="{{asset('images/backgrounds/fishback.png')}}" alt="">
+                            <img src="{{asset('images/backgrounds/banhxeo.jpg')}}" alt="" style="width: 500px;">
                         </div>
                     </div>
                </div>
@@ -60,8 +56,8 @@
     @if ($propmenus !== 0)
          <!-- Dish section Strat  --->
       <section class="dishes" id="dishes">
-          <h3 class="sub-heading">our dishes</h3>
-          <h1 class="heading">popular dishes</h1>
+          <h3 class="sub-heading">Món Ăn Của Chúng Tôi</h3>
+          <h1 class="heading">Những Món Ăn Phổ Biến</h1>
           <div class="box-container">
               @foreach ($propmenus as $propmenu)
               <div class="box">
@@ -77,7 +73,7 @@
                   <img src="{{asset('images/menu/'.$propmenu->image)}}" alt="">
                   <h3>{{$propmenu->title}}</h3>
 
-                  <span>{{$propmenu->pric}} MAD</span>
+                  <span>{{$propmenu->pric}} VND</span>
                   <form action="{{route('cart.add',$propmenu->id)}}" method="POST">
 
                     <input type="hidden" name="quantity"  value="1">
@@ -97,38 +93,36 @@
 
     <!-- About Section Start -->
       <section class="about" id="about">
-        <h3 class="sub-heading">about us</h3>
-        <h1 class="heading">why choose us?</h1>
+        <h3 class="sub-heading">Giới Thiệu</h3>
+        <h1 class="heading">Sự lựa chọn đáng tin cậy</h1>
         <div class="row">
             <div class="image">
-                <img src="{{asset('images/backgrounds/aboutbackk.png')}}" alt="">
+                <img src="{{asset('images/backgrounds/nhahangnuong.jpg')}}" alt="">
             </div>
             <div class="content">
-                <h3>Best Food In The kingdom</h3>
-                <p>Our restaurant features traditional Moroccan dishes delicious and varied and offers foreign dishes, especially Italian pizzas, plumbers and a variety of drinks and we have many branches in several cities in the Kingdom and my brother's
-                 branches outside the Kingdom</p>
+                <h3>"Tận Hưởng Mọi Hương Vị Tuyệt Vời Tại Yummy!"</h3>
+                <p>Yummy - một ẩn số đầy bất ngờ với hương vị đa dạng từ các món ăn truyền thống đến sáng tạo. Với không gian ấm cúng, dịch vụ tận tâm và đội ngũ đầu bếp tài năng, Yummy cam kết mang đến trải nghiệm ẩm thực tuyệt vời và gắn kết qua mỗi món ngon.</p>
                 <p>
-                    We offer our dishes in high quality we make sure the health of
-                    our customers and care for them and work in our restaurants
-                     the most experienced cooks we offer many additional services
-                      excellent discounts you will not find except in our restaurants,
-                       advances evenings on the music of KNAWA and the  historical
-                        Moroccan and African  music , free food delivery  ,Can you also pay easily with your bank card or through your mobile phone,
-                        we hope
-                      to like you and visit our restaurants with your friends and family and enjoy the dishes.
+                    Nhà hàng Yummy là nơi hội tụ của hương vị tinh tế và trải nghiệm ẩm thực đa dạng. Từ món ăn hấp dẫn đến đồ uống sáng tạo, Yummy cam kết mang đến trải nghiệm ẩm thực tuyệt vời nhất cho mọi khách hàng.
+
+
+
+
+
+
                 </p>
                 <div class="icons-container">
                     <div class="icons">
                         <i class="fas fa-shipping-fast"></i>
-                        <span>free delivery</span>
+                        <span>Giao Hàng Nhanh</span>
                     </div>
                     <div class="icons">
                         <i class="fas fa-dollar-sign"></i>
-                        <span>easy payments</span>
+                        <span>Thanh Toán Dễ Dàng</span>
                     </div>
                     <div class="icons">
                         <i class="fas fa-headset"></i>
-                        <span>24/7 service</span>
+                        <span>Hỗ Trợ Khách Hàng 24/7</span>
                     </div>
                 </div>
             </div>
@@ -142,8 +136,8 @@
     <!-- menu Section start-->
 
      <section class="menu" id="menu">
-        <h3 class="sub-heading">our menu</h3>
-        <h1 class="heading">today's speciality</h1>
+        <h3 class="sub-heading">Thực Đơn Của Chúng Tôi</h3>
+        <h1 class="heading">Món Ăn Của Yummy</h1>
         <div class="box-container">
             @foreach ($menus as $menu)
                  <div class="box">
@@ -187,8 +181,8 @@
     <!-- review section start -->
     @if ($reviews->count())
     <section class="review" id="review">
-        <h3 class="sub-heading">customer's review</h3>
-        <h1 class="heading">what they say</h1>
+        <h3 class="sub-heading">Các Trải Nghiệm Của Khách Hàng</h3>
+        <h1 class="heading">Họ đã nói gì?</h1>
             <div class="swiper-container review-slider ">
                     <div class="swiper-wrapper">
 
@@ -230,18 +224,18 @@
 
      <!-- Ordre Section start -->
       <div class="review2" id="review2">
-        <h3 class="sub-heading">review</h3>
-        <h1 class="heading">Add your review about our services</h1>
+        <h3 class="sub-heading">Trải nghiệm của khách hàng</h3>
+        <h1 class="heading">Hãy nói lên trải nghiệm của bạn với chúng tôi.</h1>
         <form action="{{route('reviews.store')}}" method="POST">
             @csrf
             <div class="inputBox">
                 <div class="input">
-                    <span>your review</span>
-                    <textarea name="comment" placeholder="entre your review" id="" cols="30" rows="10"></textarea>
+                    <span>Trải nghiệm của bạn</span>
+                    <textarea name="comment" placeholder="Nhập trải nghiệm của bạn" id="" cols="30" rows="10"></textarea>
                 </div>
             </div>
 
-            <input type="submit" value="add your review" class="btn">
+            <input type="submit" value="Đánh giá" class="btn">
         </form>
       </div>
 

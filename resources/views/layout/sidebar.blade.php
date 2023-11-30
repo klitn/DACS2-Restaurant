@@ -28,7 +28,7 @@
                 <li>
                     <a href="#">
                         <span class="icon"><ion-icon name="restaurant"></ion-icon></span>
-                        <span class="title">Resto Tamri</span>
+                        <span class="title" style="font-weight: bold; height:20px">Yummy</span>
                     </a>
                 </li>
                 <li>

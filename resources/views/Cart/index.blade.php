@@ -6,9 +6,9 @@
     <div class="small-container cart-page mb-4">
         <table>
             <tr>
-                <th>Menu</th>
-                <th>Quantity</th>
-                <th>total</th>
+                <th>Món Ăn</th>
+                <th>Số lượng</th>
+                <th>Tổng cộng</th>
             </tr>
 
                 @foreach ($items as $item)
@@ -67,7 +67,7 @@
                                 <div class="row">
                                     <div class="form-group">
                                         <a href="{{route('make.payment')}}" class=" btn-paypal mt-3 ml-2 d-flex align-items-center "  >
-                                            <i class="fab fa-cc-paypal mr-1" style="font-size: 1.7rem"></i>   PAY  {{Cart::getSubTotal() }} MAD WITH PAYPAL
+                                            <i class="fab fa-cc-paypal mr-1" style="font-size: 1.7rem"></i>   PAY  {{Cart::getSubTotal() }} VND WITH PAYPAL
                                         </a>
                                     </div>
                         @endif

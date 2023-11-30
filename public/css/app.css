@@ -98,6 +98,7 @@ body {
     line-height: 60px;
     text-align: start;
     white-space: nowrap;
+    
 }
 
 .navigation ul li:hover a::before,

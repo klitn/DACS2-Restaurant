@@ -30,7 +30,7 @@
                                     <label for="floatingTextarea">Description</label>
                                 </div>
                                 <div class="row mb-3">
-                                     <label for="price" class="col-md-2 col-sm-3 form-label">Pric </label>
+                                     <label for="price" class="col-md-2 col-sm-3 form-label">Price </label>
                                     <div class="input-group ">
                                             <input type="text" class="form-control" name="pric" value="{{$menu->pric}}" id="price" aria-label="Dollar amount (with dot and two decimal places)">
                                              <span class="input-group-text">VND</span>
