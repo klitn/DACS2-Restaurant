@@ -92,9 +92,15 @@ PAYPAL_SANDBOX_API_SECRET=YourSecret
   # open app in
   http://127.0.0.1:8000
 
+  #fix bug npm run dev can not run => can not mix with laravel
+  npm install vue-template-compiler@2.6.14 --save-dev
+  or
+  npm install vue-loader vue-template-compiler --save-dev
+
+
   # login to admin dashboard
    Url :http://127.0.0.1:8000/login
-   Email :   admin@gmail.com
+   Email :   admin@admin.com
    Password : admin
 
 
