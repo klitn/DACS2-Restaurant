@@ -128,7 +128,3 @@ PAYPAL_SANDBOX_API_SECRET=YourSecret
 -   filter menus by categories
 
 -   User can edit profile image and email password name ...
-
-# Discover
-
-Discover [Vedio](https://abderrahmaneamerrhi.com/assets/vedresto_withMusic-3035c394.mp4).
