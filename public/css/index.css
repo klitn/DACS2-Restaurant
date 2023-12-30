@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 :root {
     --primaryyColor: #2c6975;
     --white: #ffffff;
@@ -7,7 +7,7 @@
     --green3: #cde0c9;
     --green4: #e0ecde;
     --light-color: #666;
-    --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+    --box-shadow: 0 0 20px #e4e4e4;
 }
 * {
     font-family: "Nunito", sans-serif;
@@ -39,12 +39,11 @@ html {
 }
 /*  end change */
 section {
-    padding: 7rem 2%;
+    padding: 0px 20px 30px;
 }
 
-.dishes,
-.menu {
-    background: #eee;
+.about {
+    background: #fff;
 }
 /********* Header Style Navbar Fo9ani *****************************/
 
@@ -145,6 +144,7 @@ header .icons #menu-bars {
 }
 .home .home-slider .slide .content {
     flex: 1 1 54rem;
+    padding: 30px;
 }
 .home .home-slider .slide .image img {
     width: 100%;
@@ -169,9 +169,10 @@ header .icons #menu-bars {
     font-size: 1.7rem;
     color: #fff;
     background: var(--primaryyColor);
-    border-radius: 0.5rem;
+    border-radius: 40px;
     cursor: pointer;
     padding: 0.8rem 3rem;
+    display: inline-block;
 }
 .btn:hover {
     background-color: var(--green2);
@@ -204,8 +205,9 @@ header .icons #menu-bars {
     max-width: 400px;
     padding: 2.5rem;
     background: #fff;
-    border-radius: 0.5rem;
-    border: 0.1rem solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    /* border: 0.1rem solid rgba(0, 0, 0, 0.2); */
+
     box-shadow: var(--box-shadow);
     position: relative;
     overflow: hidden;
@@ -317,7 +319,22 @@ header .icons #menu-bars {
     font-size: 1.5rem;
     color: var(--primaryyColor);
 }
-
+/************************Sologan section style**********************************/
+.sologan {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.sologan .slogan_container{
+    text-align: center;
+    font-weight: 900;
+    color: #fff;
+    font-size: 25px;
+    padding-top: 60px;
+}
 /*********************** menu style *********************************************/
 .menu .box-container {
     display: grid;
@@ -326,8 +343,8 @@ header .icons #menu-bars {
 }
 .menu .box-container .box {
     background: #fff;
-    border: 0.1rem solid rgba(0, 0, 0, 0.2);
-    border-radius: 0.5rem;
+    /* border: 0.1rem solid rgba(0, 0, 0, 0.2); */
+    border-radius: 5px;
     box-shadow: var(--box-shadow);
 
     text-align: center;
@@ -398,7 +415,7 @@ header .icons #menu-bars {
 .review .slide {
     padding: 2rem;
     box-shadow: var(--box-shadow);
-    border: 0.1rem solid rgba(0, 0, 0, 0.2);
+    /* border: 0.1rem solid rgba(0, 0, 0, 0.2); */
     border-radius: 0.5rem;
     position: relative;
 }
@@ -437,11 +454,14 @@ header .icons #menu-bars {
     color: var(--light-color);
 }
 /*********************** Order Section Style ************************************/
+.review2{
+    padding-bottom: 100px;
+}
 .review2 form {
     width: 90rem;
     border-radius: 0.5rem;
     box-shadow: var(--box-shadow);
-    border: 0.1rem solid rgba(0, 0, 0, 0.2);
+    /* border: 0.1rem solid rgba(0, 0, 0, 0.2); */
     background: #fff;
     padding: 1.5rem;
     margin: 0 auto;
@@ -457,8 +477,9 @@ header .icons #menu-bars {
 .review2 form .inputBox .input span {
     display: block;
     padding: 0.5rem 0;
-    font-size: 1.5rem;
-    color: var(--light-color);
+    color: var(--primaryyColor);
+    font-size: 2rem;
+    font-weight: bold;
 }
 .review2 form .inputBox .input input,
 .review2 form .inputBox .input textarea {
@@ -483,39 +504,42 @@ header .icons #menu-bars {
     margin-top: 0;
 }
 /*********************** footer style *********************************************/
-
+ section.footer{
+    background-color:#2c6975;
+ }
 .footer .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 1.5rem;
+    padding: 20px 50px 0px;
 }
 
 .footer .box-container .box h3 {
     padding: 0.5rem 0;
     font-size: 2.5rem;
-    color: var(--primaryyColor);
+    color: var(--green4);
 }
 .footer .box-container .box a {
     display: block;
     padding: 0.5rem 0;
     font-size: 1.5rem;
-    color: var(--light-color);
+    color: var(--white);
 }
 .footer .box-container .box a:hover {
-    color: var(--green2);
+    color: var(--green3);
     text-decoration: underline;
 }
 .footer .credit {
     text-align: center;
     border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
     font-size: 2rem;
-    color: var(--primaryyColor);
+    color: var(--green2);
     padding: 1.5rem;
     padding-top: 1.5rem;
     margin-top: 1.5rem;
 }
 .footer .credit span {
-    color: var(--green2);
+    color: var(--green4);
 }
 
 /************************************ Shopin cart cart.blade.php style **********************/

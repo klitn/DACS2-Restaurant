@@ -1,3 +1,4 @@
+
 @extends('layout.app')
 
 @section('content')
@@ -97,7 +98,7 @@
 <h1 class="heading">Sự lựa chọn đáng tin cậy</h1>
 <div class="row">
  <div class="image">
-     <img src="{{asset('images/backgrounds/nhahangnuong.jpg')}}" alt="">
+     <img src="{{asset('images/backgrounds/nhahang.jpg')}}" alt="">
  </div>
  <div class="content">
      <h3>"Tận Hưởng Mọi Hương Vị Tuyệt Vời Tại Yummy!"</h3>
@@ -131,6 +132,17 @@
 
 <!-- About Section End -->
 
+<section class="sologan" style="background-image: url({{asset('images/backgrounds/sologan.jpg')}});">
+    <div class="overlay" ></div>
+    <div class="slogan_container" style="font-family: Arial, Helvetica, sans-serif;">
+        <div class="row">
+            <div>
+                <span style="font-size: 20px; color: rgba(255, 255, 255, 0.9); ">Thưởng thức ngay</span>
+                <h2 class="sologan_text" style="font-family: 'Poppins', sans-serif;">Yummy - Nơi kết nối giữa ẩm thực và niềm vui!</h2>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <!-- menu Section start-->

@@ -107,8 +107,8 @@
                                                     </td>
                                                     <td>{{$order->menu_name}}</td>
                                                     <td>{{$order->qte}}</td>
-                                                    <td>{{$order->price}} MAD</td>
-                                                    <td>{{$order->total}} MAD</td>
+                                                    <td>{{$order->price}} VND</td>
+                                                    <td>{{$order->total}} VND</td>
                                                     <td>
                                                          @if ($order->paid)
                                                           <i class="fa fa-check text-success"></i>

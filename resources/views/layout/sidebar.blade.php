@@ -27,8 +27,8 @@
             <ul>
                 <li>
                     <a href="#">
-                        <span class="icon"><ion-icon name="restaurant"></ion-icon></span>
-                        <span class="title" style="font-weight: bold; height:20px">Yummy</span>
+                        <span class="icon" style="color: #68b2a0; font-size: 2rem;"><i class="fas fa-utensils"></i></span>                       
+                        <span class="title" style="font-size: 25px;  font-family: Florence, cursive; font-weight:bold; ">Yummy</span>
                     </a>
                 </li>
                 <li>

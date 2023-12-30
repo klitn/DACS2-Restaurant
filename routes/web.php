@@ -10,6 +10,7 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\CategorieController;
 use App\Http\Controllers\CommentController;
 use App\Http\Controllers\JadorMenuController;
+use App\Http\Controllers\MenuPageController;
 use App\Http\Controllers\OrderController;
 use App\Http\Controllers\PaypalPaymentController;
 
@@ -18,15 +19,13 @@ use App\Http\Controllers\PaypalPaymentController;
 | Web Routes
 |--------------------------------------------------------------------------
 |
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
+|
 |
 */
 
-Route::get('/', [HomeController::class, 'index'])->name('resto.index');;
+Route::get('/', [HomeController::class, 'index'])->name('resto.index');
 
-
+Route::get('/Menu', [MenuPageController::class, 'index'])->name('menu.index');
 
 /******************** auth routes *******************/
 // login function route

@@ -100,8 +100,8 @@
                                                     <td>{{$menu->id}}</td>
                                                     <td>{{$menu->title}}</td>
                                                     <td>{{Str::limit($menu->description,10)}}</td>
-                                                    <td>{{$menu->pric}} MAD</td>
-                                                    <td>{{$menu->old_price}} MAD</td>
+                                                    <td>{{$menu->pric}} VND</td>
+                                                    <td>{{$menu->old_price}} VND</td>
                                                     <td>
                                                         <img src="{{asset('images//menu/'.$menu->image)}}" alt="menu_image"
                                                              class="img-fluid rounded-circle"

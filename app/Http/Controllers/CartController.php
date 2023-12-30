@@ -29,7 +29,7 @@ class CartController extends Controller
             'id' => $menu->id,
             'name' => $menu->title,
             'price' => $menu->pric,
-            "quantity" => $request->quantity ? $request->quantity : 1, // ila jat quatity idkhlha ila majatch i3tiha 1
+            "quantity" => $request->quantity ? $request->quantity : 1, 
             "attributes" => array(),
             "associatedModel" => $menu,
         ));

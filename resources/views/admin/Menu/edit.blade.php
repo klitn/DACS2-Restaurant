@@ -33,14 +33,14 @@
                                      <label for="price" class="col-md-2 col-sm-3 form-label">Pric </label>
                                     <div class="input-group ">
                                             <input type="text" class="form-control" name="pric" value="{{$menu->pric}}" id="price" aria-label="Dollar amount (with dot and two decimal places)">
-                                             <span class="input-group-text">MAD</span>
+                                             <span class="input-group-text">VND</span>
                                     </div>
                                 </div>
                                 <div class="row input-group mb-3">
                                     <label for="old_price" class="col-md-2 col-sm-3 form-label">Old Price</label>
                                    <div class="input-group ">
                                         <input type="text" class="form-control" name="old_price" value="{{$menu->old_price}}" id="old_price" aria-label="Dollar amount (with dot and two decimal places)">
-                                        <span class="input-group-text">MAD</span>
+                                        <span class="input-group-text">VND</span>
                                     </div>
 
                                 </div>
